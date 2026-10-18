@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int sensor;
+    clrscr();
+
+    printf("Enter sensor value: ");
+    scanf("%d", &sensor);
+
+    if(sensor > 50)
+        printf("Threshold Exceeded!");
+    else
+        printf("Normal Value");
+
+    getch();
+}
