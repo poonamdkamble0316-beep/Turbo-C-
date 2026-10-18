@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int m;
+clrscr();
+
+printf("Enter mode: ");
+scanf("%d",&m);
+
+switch(m)
+{
+case 1: printf("Idle"); break;
+case 2: printf("Active"); break;
+case 3: printf("Error"); break;
+}
+
+getch();
+}
